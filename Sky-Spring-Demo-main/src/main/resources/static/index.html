@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"/>
+    <title>Person</title>
+</head>
+
+<html>
+
+	<body>
+		<h1>test</h1>
+
+		<div id="create">
+			<h1>Create person</h1>
+            <form action="" method="get" class="createPerson_form">
+
+                <div class="createPerson_firstName">
+                  <label for="fullName">Enter your full name: </label>
+                  <input type="text" name="fullName" id="fullName" required>
+                </div>
+
+                <div class="createPerson_oldNess">
+                  <label for="oldNess">Enter your oldNess: </label>
+                  <input type="number" name="oldNess" id="oldNess" required>
+                </div>
+
+                <div class="createPerson_occupation">
+                    <label for="occupation">Enter your occupation: </label>
+                    <input type="text" name="occupation" id="occupation" required>
+                </div>
+
+                <div class="createPerson_notNiNumber">
+                    <label for="notNiNumber">Enter your NI Number: </label>
+                    <input type="number" name="notNiNumber" id="notNiNumber">
+                </div>
+
+                <div class="createPerson_form">
+                  <input type="submit" value="Submit">
+                </div>
+
+              </form>
+		</div>
+		<div id="read">
+			<h2>Read</h2>
+			<button type="button" id="readButton">READ</button>
+			<pre id="readOutput"></pre>
+		</div>
+		<div id="update">
+			<h2>Update</h2>
+		</div>
+		<div id="delete">
+			<h2>Delete</h2>
+			<label for="deleteInput">ID: </label>
+			<input id="deleteInput" /><button type="button" id="deleteButton">DELETE</button>
+			<pre id="deleteOutput" id="deleteButton"></pre>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+		<script src="index.js"></script>
+	</body>
+
+</html>
+
+
+
+
+
+
+
+</html>
